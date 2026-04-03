@@ -49,6 +49,7 @@ ul {
 
 .show-nav {
     max-height: 100vh;
+    padding-bottom: 2.5rem;
 }
 
 section {
@@ -81,5 +82,8 @@ section a {
     color: var(--white);
 }
 
-
-
+button {
+    background-color: var(--purple);
+    border: none;
+    padding: 0;
+}
