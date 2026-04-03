@@ -6,14 +6,22 @@
 .flex-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 body {
     font-family: "PT Sans", sans-serif;
     background: linear-gradient(90deg, #46A098 0%, #54A654 100%);
+    color: var(--white);
 }
 
 header {
     background-color: var(--purple);
+}
+
+header a {
+    background-color: var(--purple);
+    text-decoration: none;
+    display: block;
 }
 
