@@ -1,0 +1,19 @@
+:root {
+    --purple: #9846A0;
+    --white: #fff;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    background: linear-gradient(90deg, #46A098 0%, #54A654 100%);
+}
+
+header {
+    background-color: var(--purple);
+}
+
