@@ -43,6 +43,10 @@ header nav {
     transition: max-height 0.7s ease-in-out;
 }
 
+ul {
+    font-size: 1.125rem;
+}
+
 .show-nav {
     max-height: 100vh;
 }
