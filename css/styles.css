@@ -19,6 +19,7 @@ body {
 
 header {
     background-color: var(--purple);
+    padding: 1rem;
 }
 
 header a {
@@ -33,7 +34,7 @@ header a {
 
 header nav {
     position: absolute;
-    top: 4.125rem;
+    top: 4.9375rem;
     left: 0;
     background-color: var(--purple);
     width: 100vw;
@@ -42,7 +43,9 @@ header nav {
     transition: max-height 0.7s ease-in-out;
 }
 
-
+.show-nav {
+    max-height: 100vh;
+}
 
 
 
