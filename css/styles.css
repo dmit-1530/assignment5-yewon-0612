@@ -1,6 +1,8 @@
 :root {
     --purple: #9846A0;
     --white: #fff;
+    --dark-purple: #793880;
+    --light-purple: #A258A9;
 }
 
 .flex-container {
@@ -20,8 +22,27 @@ header {
 }
 
 header a {
-    background-color: var(--purple);
     text-decoration: none;
     display: block;
 }
+
+.menu {
+    line-height: 3.5rem;
+    text-align: center;
+}
+
+header nav {
+    position: absolute;
+    top: 4.125rem;
+    left: 0;
+    background-color: var(--purple);
+    width: 100vw;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s ease-in-out;
+}
+
+
+
+
 
