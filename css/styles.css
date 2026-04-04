@@ -62,6 +62,13 @@ ul li {
     padding-bottom: 2.5rem;
 }
 
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
 section {
     padding: 0 16px;
 }
@@ -100,3 +107,48 @@ button {
 
 /* 320px done!--------------------------- */
 
+@media (min-width: 48.75rem) {
+
+    .toggle-btn {
+        display: none;
+    }
+
+    header nav {
+        /* we need to return everything back into html use position static */
+        position: static;
+        max-height: unset;
+        overflow: visible;
+        width: 100%;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+    .menu {
+        display: flex;
+        gap: 4rem;
+    }
+
+    ul li {
+        width: auto;
+        border: none;
+        line-height: 3.5rem;
+    }
+
+    .menu a:hover {
+        background-color: var(--light-purple);
+        padding: 0 .5rem;
+        border-radius: .3125rem;
+    }
+
+    section a:hover {
+        background-color: var(--dark-purple);
+    }
+
+    .inner-container h1,
+    .inner-container p {
+        max-width: 30.5rem;
+    }
+}
