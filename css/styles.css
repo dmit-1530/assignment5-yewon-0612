@@ -69,6 +69,10 @@ ul li {
     width: 100%;
 }
 
+.top-menu svg {
+    margin: 0 auto;
+}
+
 section {
     padding: 0 16px;
 }
@@ -121,9 +125,17 @@ button {
         width: 100%;
     }
 
+    .top-menu {
+        flex-wrap: wrap;
+        row-gap: .5rem;
+    }
+
+    .top-menu svg {
+        margin: 0;
+    }
+
     .flex-container {
-        flex-direction: column;
-        gap: .5rem;
+        align-items: flex-start;
     }
 
     .menu {
@@ -153,8 +165,20 @@ button {
     }
 }
 
-@media (min-height: 64.8125rem) {
+/* this gave me a pain ;_; */
 
+@media (min-width: 64.8125rem) {
 
+    header nav {
+        max-width: 46rem;
+        flex: 1 1 auto;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .flex-container {
+        align-items: center;
+    }
 
 }
