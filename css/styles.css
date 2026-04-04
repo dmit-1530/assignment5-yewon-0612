@@ -182,3 +182,14 @@ button {
     }
 
 }
+
+@media (min-width: 120rem) {
+
+    .page-container {
+        max-width: 113.75rem;
+        margin: 0 auto;
+        padding-left: 0;
+        padding-left: 0;
+    }
+
+}
