@@ -97,3 +97,26 @@ button {
     border: none;
     padding: 0;
 }
+
+/* 320px done!--------------------------- */
+
+@media (min-width: 48.75rem) {
+    .toggle-btn {
+        display: none;
+    }
+
+    header nav {
+        position: static;
+        max-height: unset;
+        overflow: visible;
+        width: auto;
+    }
+
+    .menu,
+    header .inner-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+}
